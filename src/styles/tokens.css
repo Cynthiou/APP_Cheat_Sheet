@@ -1,0 +1,147 @@
+/* ============================================================
+   Cheat Sheet — Design tokens · thème clair minimal
+   Clair par défaut · sombre en option. Accent = indigo.
+   Blocs de code toujours sombres (contraste éditeur).
+   ============================================================ */
+
+:root {
+  /* Surfaces & texte — clair */
+  --bg: #ffffff;
+  --panel: #ffffff;
+  --panel-2: #f6f7f9;
+  --sidebar: #fbfbfd;
+  --ink: #14151a;
+  --ink2: #3c414b;
+  --muted: #8b909b;
+  --line: #ececef;
+  --line-strong: #e0e1e6;
+
+  /* Accent d'interface — indigo */
+  --accent: #3b5bfe;
+  --accent-ink: #2f49d6;
+  --accent-soft: #eef1ff;
+
+  /* Couleurs sémantiques (dérivées, discrètes) */
+  --learn: #3b5bfe; /* Comprendre */
+  --learn-soft: #eef1ff;
+  --tpl: #f97316; /* Code / accent chaud */
+  --tpl-deep: #d9660c;
+  --tpl-soft: #fff2e8;
+  --guide: #16a34a; /* Guide */
+  --guide-soft: #e8f7ee;
+  --guide-deep: #12833d;
+  --mauve: #6d5efc;
+
+  --danger: #e5484d;
+  --danger-soft: #fdecec;
+  --draft: #b7791f;
+  --draft-soft: #fbf3e2;
+
+  /* Catégories */
+  --cat-frontend: #3b82f6;
+  --cat-backend: #22c55e;
+  --cat-bdd: #ef4444;
+  --cat-outils: #c2760c;
+
+  /* Bloc de code — sombre */
+  --code-bg: #0d1017;
+  --code-bar: #161a22;
+  --code-fg: #e6e9f0;
+
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 16px;
+  --r-xl: 22px;
+  --shadow-sm: 0 1px 2px rgba(20, 21, 26, 0.05);
+  --shadow-md: 0 6px 22px -12px rgba(20, 21, 26, 0.18);
+  --shadow-lg: 0 18px 50px -24px rgba(20, 21, 26, 0.28);
+  --shadow-code: 0 24px 60px -30px rgba(0, 0, 0, 0.55);
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Space Grotesk', 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --sidebar-w: 250px;
+  --reading-max: 860px;
+}
+
+body.dark {
+  --bg: #0e0f13;
+  --panel: #16181d;
+  --panel-2: #1c1f26;
+  --sidebar: #101116;
+  --ink: #eceef2;
+  --ink2: #b6bcc6;
+  --muted: #7f8593;
+  --line: #24272f;
+  --line-strong: #2d313a;
+
+  --accent: #6d84ff;
+  --accent-ink: #94a5ff;
+  --accent-soft: #1a1f38;
+
+  --learn: #6d84ff;
+  --learn-soft: #1a1f38;
+  --tpl: #fb923c;
+  --tpl-deep: #fdba74;
+  --tpl-soft: #2a1d12;
+  --guide: #4ade80;
+  --guide-soft: #14251a;
+  --guide-deep: #86efac;
+  --mauve: #a99bff;
+
+  --danger: #ff6b6f;
+  --danger-soft: #2a1416;
+  --draft: #e0b44a;
+  --draft-soft: #241d10;
+
+  --cat-frontend: #60a5fa;
+  --cat-backend: #4ade80;
+  --cat-bdd: #f87171;
+  --cat-outils: #e0a44a;
+
+  --code-bg: #05070c;
+  --code-bar: #0e1119;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 10px 30px -18px rgba(0, 0, 0, 0.7);
+  --shadow-lg: 0 20px 50px -24px rgba(0, 0, 0, 0.8);
+}
+
+/* Accents par technologie (pastilles) */
+:root {
+  --tech-tools: #8b909b;
+  --tech-git: #f05133;
+  --tech-methodology: #6d5efc;
+  --tech-html: #e34f26;
+  --tech-css: #2563eb;
+  --tech-javascript: #d9a015;
+  --tech-typescript: #3178c6;
+  --tech-react: #06b6d4;
+  --tech-node: #16a34a;
+  --tech-express: #6b7280;
+  --tech-sql: #0e7490;
+  --tech-database: #0891b2;
+  --tech-auth: #16a34a;
+  --tech-deployment: #7c3aed;
+  --tech-testing: #db2777;
+  --tech-advanced: #e5484d;
+}
+body.dark {
+  --tech-tools: #9ca3af;
+  --tech-git: #ff7a66;
+  --tech-methodology: #a99bff;
+  --tech-html: #fb8c66;
+  --tech-css: #60a5fa;
+  --tech-javascript: #f5cf5b;
+  --tech-typescript: #6aa9e9;
+  --tech-react: #4dd4e8;
+  --tech-node: #4ade80;
+  --tech-express: #9ca3af;
+  --tech-sql: #22b8cf;
+  --tech-database: #38bdf8;
+  --tech-auth: #4ade80;
+  --tech-deployment: #a78bfa;
+  --tech-testing: #f472b6;
+  --tech-advanced: #ff6b6f;
+}
